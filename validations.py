@@ -3,14 +3,6 @@ def validate_name_length(name: str):
         name = input('Name should be at least one character long. Please enter another one: ')
         continue
     return name
-#
-#
-# def validate_equal_names(first_name, second_name):
-#     validate_name_length(second_name)
-#     while first_name == second_name:
-#         new_second_name = input('Names cannot be the same. Please provide a different one: ')
-#         name = validate_name_length(new_second_name)
-#     return second_name
 
 
 def validate_player_choice(pl_choice, m_size, mx):
